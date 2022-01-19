@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  devise_for :users
   # resources creates CRUD routes
   resources :friends
   # get is for static pages
